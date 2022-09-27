@@ -1,4 +1,8 @@
 export function compute(x : number){
-
-    return -1;
+    if(x<0){
+        return 0
+    }else{
+        x=x+1
+    }
+    return x
 }
