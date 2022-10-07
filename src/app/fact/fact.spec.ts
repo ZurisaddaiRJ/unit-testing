@@ -1,0 +1,33 @@
+import { fact } from './fact';
+
+describe('fact', () =>{
+    it('should return 1 if input is 0', () =>{
+        const result = fact();
+        expect(result).toBe();
+    })
+
+    it('should return 0 if input is negative', () =>{
+        const result = fact();
+        expect(result).toBe();
+    })
+
+    it('should return 6 if input is 3', () =>{
+        const result = fact();
+        expect(result).toBe();
+    })
+
+    it('should return 24 if input is 4', () =>{
+        const result = fact();
+        expect(result).toBe();
+    })
+
+    it('should return 120 if input is 5', () =>{
+        const result = fact();
+        expect(result).toBe();
+    })
+
+    it('should return 0 if input is > 16', () =>{
+        const result = fact();
+        expect(result).toBe();
+    })
+})
